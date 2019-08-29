@@ -3,3 +3,5 @@ channels:
   - r
 dependencies:
   - r-rjava
+  - r-curl
+  - r-httr
