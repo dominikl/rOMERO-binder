@@ -1,1 +1,3 @@
 openjdk-11-jdk
+libcurl4-openssl-dev
+libxml2-dev
