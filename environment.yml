@@ -5,5 +5,4 @@ dependencies:
   - r-curl
   - r-httr
   - r-jpeg
-  - r-methods
   - r-rjava
