@@ -4,5 +4,5 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/java-11-openjdk-amd64/lib/s
 export OMERO_LIBS_DOWNLOAD=TRUE
 #su -c "R CMD javareconf"
 R -e 'install.packages(c("curl", "httr", "jpeg"), repos="http://cran.us.r-project.org")'
-R -e 'install.packages("https://github.com/ome/rOMERO-gateway/releases/download/v0.4.7/romero.gateway_0.4.7.tar.gz", repos = NULL, type = "source")'
-R -e 'library("romero.gateway")'
+#R -e 'install.packages("https://github.com/ome/rOMERO-gateway/releases/download/v0.4.7/romero.gateway_0.4.7.tar.gz", repos = NULL, type = "source")'
+#R -e 'library("romero.gateway")'
