@@ -1,6 +1,8 @@
 #!/bin/bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/jvm/java-11-openjdk-amd64/lib/server
 export OMERO_LIBS_DOWNLOAD=TRUE
+conda init bash
+exec bash
 conda activate notebook
 R -e 'install.packages("https://github.com/ome/rOMERO-gateway/releases/download/v0.4.7/romero.gateway_0.4.7.tar.gz", repos = NULL, type = "source")'
 R -e 'library("romero.gateway")'
