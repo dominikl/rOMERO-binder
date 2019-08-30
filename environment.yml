@@ -2,6 +2,7 @@ name: conda
 channels:
   - r
 dependencies:
+  - r-devtools
   - r-rjava
   - r-curl
   - r-httr
