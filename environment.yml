@@ -1,5 +1,9 @@
-name: conda
+name: my_env
 channels:
   - r
 dependencies:
+  - r-curl
+  - r-httr
+  - r-jpeg
+  - r-methods
   - r-rjava
