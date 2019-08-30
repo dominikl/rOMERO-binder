@@ -1,0 +1,2 @@
+curl -o /tmp/install.R https://raw.githubusercontent.com/ome/rOMERO-gateway/master/install.R 
+Rscript /tmp/install.R
